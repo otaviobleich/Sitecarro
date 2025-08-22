@@ -1,5 +1,10 @@
 import CarItem from "./CarItem";
 
+import img1 from "../img/carro1.jpg";
+import img2 from "../img/carro2.jpg";
+import img3 from "../img/carro3.jpg";
+import img4 from "../img/carro4.jpg";
+
 export default function CarGrid() {
   return (
     <section
@@ -10,10 +15,10 @@ export default function CarGrid() {
         gap: 16,
       }}
     >
-      <CarItem image="https://source.unsplash.com/400x300/?car" />
-      <CarItem image="https://source.unsplash.com/400x300/?sportscar" />
-      <CarItem image="https://source.unsplash.com/400x300/?luxurycar" />
-      <CarItem image="https://source.unsplash.com/400x300/?classiccar" />
+      <CarItem image={img1} />
+      <CarItem image= {img2}/>
+      <CarItem image= {img3} />
+      <CarItem image= {img4} />
     </section>
   );
-}
+} 
